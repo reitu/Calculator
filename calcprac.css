@@ -1,0 +1,60 @@
+
+.calculator {
+    background-color:white;
+    border: 12px solid white;
+    border-radius: 8px;
+    width: 280px;
+    height: 350px;
+    text-align: center;
+    position: relative;
+    justify-content: space-between;
+    margin: 200px auto;
+    padding-bottom: 8px;
+}
+
+.screen {
+    border: solid black 5px;
+    border-radius: 8px;
+    height: 70px;
+    background-color: grey;
+}
+#screen {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border: none;
+    font-size: 36px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+#mynums {
+    background-color:white;
+    position: relative
+}
+
+.first {
+    height: 70px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    justify-content: space-between;
+    border: darkblue 2px solid;
+    box-sizing: border-box;
+    
+}
+
+.first .btnmy {
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: violet;
+    border: solid yellow 2px;
+    width: 70px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.first .btnmy.sign {
+    background-color:orange;
+}
